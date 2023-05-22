@@ -2,11 +2,11 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '早安老婆',
     desc: `
       **{{date.DATA}}**
       
-      下个休息日：{{holidaytts.DATA}}
+      {{holidaytts.DATA}}
       
       ---
       
@@ -30,9 +30,17 @@ const TEMPLATE_CONFIG = [
       
       ---
       
+      {{earthy_love_words.DATA}}
+      
       {{moment_copyrighting.DATA}}
       
       {{poetry_title.DATA}} {{poetry_content.DATA}}
+      
+      ---
+      
+      相处的过程中 也许我们会对彼此失望 但是请相信彼此的眼光 我们只不过是经历了大家都经历的过程 所以请继续加油吧！
+      
+      ---
     `
   },
   {
